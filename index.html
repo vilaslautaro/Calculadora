@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- estilos -->
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/themeDark.css">
+  <link rel="stylesheet" href="css/themeWhite.css">
+  <link rel="stylesheet" href="css/themeViolet.css">
+  <link rel="stylesheet" href="css/mediaqueries.css">
+  <!-- icono -->
+  <link rel="shortcut icon" type="image/x-icon" href="https://res.cloudinary.com/dn7qsxzdf/image/upload/v1644621287/Calculadora/favicon_gcjio2.png">
+  <!-- normalize -->
+  <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
+  <!-- fuentes -->
+  <link href="https://fonts.googleapis.com/css2?family=Spartan:wght@700&display=swap" rel="stylesheet">
+  <title>Calculadora</title>
+</head>
+
+<body id="body" class="dark">
+  <div class="container">
+    <div class="container__calculadora">
+      <header class="header">
+        <h3 class="header__title">Calculadora</h3>
+        <div class="header__theme">
+          <p class="header__theme-text">TEMA</p>
+          <button id="toggleBtn" class="header__theme-button"></button>
+        </div>
+      </header>
+      <div class="container__Display">
+        <input id="display" class="display" placeholder="0" readonly>
+      </div>
+      <div class="keypad">
+        <button class="key key-number key-white">7</button>
+        <button class="key key-number key-white">8</button>
+        <button class="key key-number key-white">9</button>
+        <button class="key key-gray"            id="borrar">DEL</button>
+        <button class="key key-number key-white">4</button>
+        <button class="key key-number key-white">5</button>
+        <button class="key key-number key-white">6</button>
+        <button class="key key-operator key-white">+</button>
+        <button class="key key-number key-white">1</button>
+        <button class="key key-number key-white">2</button>
+        <button class="key key-number key-white" >3</button>
+        <button class="key key-operator key-white">-</button>
+        <button class="key key-number key-white">.</button>
+        <button class="key key-number key-white">0</button>
+        <button class="key key-operator key-white">/</button>
+        <button class="key key-operator key-white">x</button>
+        <button class="key key-gray key-reset"   id="resetear">RESET</button>
+        <button class="key key-red key-result"   id="igual">=</button>
+      </div>
+    </div>
+  </div>
+  <!-- javascript -->
+  <script src="js/globales.js"></script>
+  <script src="js/app.js"></script>
+  <script src="js/functions.js"></script>
+</body>
+
+</html>

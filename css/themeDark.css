@@ -1,0 +1,74 @@
+/* white */
+body.dark{
+    background: hsl(222, 26%, 31%);
+    transition: 0.8s ease;
+}
+
+/* header */
+body.dark .header__title{
+    color: #fff;
+    transition: 0.8s ease;
+}
+
+body.dark .header__theme-text{
+    color: #fff;
+    transition: 0.8s ease;
+}
+
+body.dark .header__theme-button{
+    background: hsl(223, 31%, 20%);
+    transition: 0.8s ease;
+}
+
+body.dark .header__theme-button::after{
+    right: unset;
+    left: 5%;
+    background: hsl(6, 63%, 50%);
+    transition: 0.8s ease;
+}
+
+body.dark .header__theme-button::before{
+    color: #fff;
+    transition: 0.8s ease;
+}
+
+body.dark .container__Display{
+    background: hsl(224, 36%, 15%);
+    transition: 0.8s ease;
+}
+
+body.dark .display{
+    color: #fff;
+    transition: 0.8s ease;
+}
+
+body.dark .keypad{
+    background: hsl(224, 36%, 15%);
+    transition: 0.8s ease;
+}
+
+body.dark .key:hover{
+    filter: brightness(0.9);
+}
+
+body.dark .key-gray{
+    background: hsl(225, 21%, 49%);
+    box-shadow: 0px 0.25rem 1px hsl(224, 28%, 35%);
+    color: #fff !important;
+    transition: 0.8s ease;
+}
+
+body.dark .key-white{
+    background: hsl(30, 25%, 89%);
+    box-shadow: 0px 0.25rem 1px hsl(28, 16%, 65%);
+    color: hsl(221, 14%, 31%);
+    transition: 0.8s ease;
+}
+
+.key-red{
+    background: hsl(6, 63%, 50%);
+    box-shadow: 0px 0.25rem 1px hsl(6, 70%, 34%);
+    color: #fff; 
+    transition: 0.8s ease;
+}
+

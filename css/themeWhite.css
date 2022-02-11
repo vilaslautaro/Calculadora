@@ -1,0 +1,74 @@
+/* white */
+body.white{
+    background: hsl(0, 0%, 90%);
+    transition: 0.5s ease;
+}
+
+/* header */
+body.white .header__title{
+    color: #000;
+    transition: 0.5s ease;
+}
+
+body.white .header__theme-text{
+    color: #000;
+    transition: 0.5s ease;
+}
+
+body.white .header__theme-button{
+    background: hsl(0, 5%, 81%);
+    transition: 0.5s ease;
+}
+
+body.white .header__theme-button::after{
+    right: 37%;
+    left: unset;
+    transition: 0.5s ease;
+    background: hsl(25, 98%, 40%);
+}
+
+body.white .header__theme-button::before{
+    color: #000;
+    transition: 0.5s ease;
+}
+
+body.white .container__Display{
+    background: hsl(0, 0%, 93%);
+    transition: 0.5s ease;
+}
+
+body.white .display{
+    color: #000;
+    transition: 0.5s ease;
+}
+
+body.white .keypad{
+    background: hsl(0, 5%, 81%);
+    transition: 0.5s ease;
+}
+
+body.white .key:hover{
+    filter: brightness(0.95);
+}
+
+body.white .key-gray{
+    background: hsl(185, 42%, 37%);
+    box-shadow: 0px 4px 1px hsl(185, 58%, 25%);
+    color: #fff;
+    transition: 0.5s ease;
+}
+
+body.white .key-white{
+    background: hsl(45, 7%, 89%);
+    box-shadow: 0px 4px 1px hsl(35, 11%, 61%);
+    color: hsl(60, 10%, 19%);
+    transition: 0.5s ease;
+}
+
+body.white .key-red{
+    background: hsl(25, 98%, 40%);
+    box-shadow: 0px 4px 1px hsl(25, 98%, 40%);
+    color: #fff; 
+    transition: 0.5s ease;
+}
+
