@@ -28,7 +28,7 @@ Los usuarios deben ser capaces de:
 
 ### Link
 
-- Sitio web: [App Calculadora](https://app-calculadora.netlify.com)
+- Sitio web: [App Calculadora](aplicacioncalculadora.netlify.app)
 
 
 ## Mi proceso
